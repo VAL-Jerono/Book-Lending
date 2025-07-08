@@ -1,0 +1,30 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "15.72.5"
+    },
+    "book_lending": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    },
+    "inventory_tracker": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "9ed8a0b9ba44e56785b159eed9a2bee552671d53",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
+    }
+}

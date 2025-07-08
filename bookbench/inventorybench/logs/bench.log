@@ -1,0 +1,4 @@
+2025-07-04 09:48:00,669 DEBUG cd inventorybench && python3 -m venv env
+2025-07-04 09:48:00,787 WARNING cd inventorybench && python3 -m venv env executed with exit code 1
+2025-07-04 09:48:01,789 ERROR There was a problem while creating inventorybench
+2025-07-04 09:48:01,790 WARNING /home/jerono/.venvs/frappe-env/bin/bench init inventorybench --frappe-branch version-15 executed with exit code 1

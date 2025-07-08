@@ -1,0 +1,139 @@
+2025-07-03 14:54:23,448 INFO ipython === bench console session ===
+2025-07-03 14:54:23,448 INFO ipython frappe.get_doc({
+    "doctype": "DocType",
+        "name": "Borrower",
+            "module": "Book Lending",
+                "custom": 0,
+                    "fields": [
+                            {"label": "Full Name", "fieldname": "full_name", "fieldtype": "Data", "reqd": 1},
+                                    {"label": "Email", "fieldname": "email", "fieldtype": "Data"},
+                                            {"label": "Phone", "fieldname": "phone", "fieldtype": "Data"}
+                                                ],
+                                                    "permissions": [{"role": "System Manager", "read": 1, "write": 1, "create": 1}],
+                                                    }).insert()
+2025-07-03 14:54:23,449 INFO ipython bench --site books.local console
+2025-07-03 14:54:23,449 INFO ipython === session end ===
+2025-07-03 14:57:02,388 INFO ipython === bench console session ===
+2025-07-03 14:57:02,393 INFO ipython frappe.get_doc({
+    "doctype": "Module Def",
+        "module_name": "Book Lending",
+            "app_name": "book_lending"
+            }).insert()
+2025-07-03 14:57:02,393 INFO ipython frappe.get_doc({
+    "doctype": "DocType",
+        "name": "Borrower",
+            "module": "Book Lending",
+                "custom": 0,
+                    "fields": [
+                            {"label": "Full Name", "fieldname": "full_name", "fieldtype": "Data", "reqd": 1},
+                                    {"label": "Email", "fieldname": "email", "fieldtype": "Data"},
+                                            {"label": "Phone", "fieldname": "phone", "fieldtype": "Data"}
+                                                ],
+                                                    "permissions": [{"role": "System Manager", "read": 1, "write": 1, "create": 1}],
+                                                    }).insert()
+2025-07-03 14:57:02,393 INFO ipython nano sites/books.local/site_config.json
+2025-07-03 14:57:02,393 INFO ipython === session end ===
+2025-07-03 15:03:16,502 INFO ipython === bench console session ===
+2025-07-03 15:03:16,503 INFO ipython frappe.get_doc({
+    "doctype": "DocType",
+        "name": "Borrower",
+            "module": "Book Lending",
+                "custom": 0,
+                    "fields": [
+                            {"label": "Full Name", "fieldname": "full_name", "fieldtype": "Data", "reqd": 1},
+                                    {"label": "Email", "fieldname": "email", "fieldtype": "Data"},
+                                            {"label": "Phone", "fieldname": "phone", "fieldtype": "Data"}
+                                                ],
+                                                    "permissions": [{"role": "System Manager", "read": 1, "write": 1, "create": 1}],
+                                                    }).insert()
+2025-07-03 15:03:16,503 INFO ipython frappe.get_doc({
+    "doctype": "Module Def",
+        "module_name": "Book Lending",
+            "app_name": "book_lending"
+            }).insert()
+2025-07-03 15:03:16,503 INFO ipython frappe.get_doc({
+    "doctype": "DocType",
+        "name": "Borrower",
+            "module": "Book Lending",
+                "custom": 0,
+                    "fields": [
+                            {"label": "Full Name", "fieldname": "full_name", "fieldtype": "Data", "reqd": 1},
+                                    {"label": "Email", "fieldname": "email", "fieldtype": "Data"},
+                                            {"label": "Phone", "fieldname": "phone", "fieldtype": "Data"}
+                                                ],
+                                                    "permissions": [{"role": "System Manager", "read": 1, "write": 1, "create": 1}],
+                                                    }).insert()
+2025-07-03 15:03:16,503 INFO ipython === session end ===
+2025-07-03 15:07:35,600 INFO ipython === bench console session ===
+2025-07-03 15:07:35,604 INFO ipython frappe.get_doc({
+    "doctype": "Module Def",
+        "module_name": "Book Lending",
+            "app_name": "book_lending"
+            }).insert()
+2025-07-03 15:07:35,605 INFO ipython frappe.get_doc({
+    "doctype": "DocType",
+        "name": "Borrower",
+            "module": "Book Lending",
+                "custom": 0,
+                    "fields": [
+                            {"label": "Full Name", "fieldname": "full_name", "fieldtype": "Data", "reqd": 1},
+                                    {"label": "Email", "fieldname": "email", "fieldtype": "Data"},
+                                            {"label": "Phone", "fieldname": "phone", "fieldtype": "Data"}
+                                                ],
+                                                    "permissions": [{"role": "System Manager", "read": 1, "write": 1, "create": 1}],
+                                                    }).insert()
+2025-07-03 15:07:35,605 INFO ipython frappe.get_doc({
+    "doctype": "DocType",
+        "name": "Book Lending Entry",
+            "module": "Book Lending",
+                "custom": 0,
+                    "fields": [
+                            {"label": "Book", "fieldname": "book", "fieldtype": "Link", "options": "Book", "reqd": 1},
+                                    {"label": "Borrower", "fieldname": "borrower", "fieldtype": "Link", "options": "Borrower", "reqd": 1},
+                                            {"label": "Lend Date", "fieldname": "lend_date", "fieldtype": "Date", "reqd": 1},
+                                                    {"label": "Return Date", "fieldname": "return_date", "fieldtype": "Date"}
+                                                        ],
+                                                            "permissions": [{"role": "System Manager", "read": 1, "write": 1, "create": 1}],
+                                                            }).insert()
+2025-07-03 15:07:35,605 INFO ipython frappe.get_doc({
+    "doctype": "DocType",
+        "name": "Book",
+            "module": "Book Lending",
+                "custom": 0,
+                    "fields": [
+                            {"label": "Title", "fieldname": "title", "fieldtype": "Data", "reqd": 1},
+                                    {"label": "Author", "fieldname": "author", "fieldtype": "Data"},
+                                            {"label": "ISBN", "fieldname": "isbn", "fieldtype": "Data"},
+                                                    {"label": "Status", "fieldname": "status", "fieldtype": "Select", "options": "Available\nLent", "default": "Available"}
+                                                        ],
+                                                            "permissions": [{"role": "System Manager", "read": 1, "write": 1, "create": 1}],
+                                                            }).insert()
+2025-07-03 15:07:35,605 INFO ipython frappe.get_doc({
+    "doctype": "DocType",
+        "name": "Book Lending Entry",
+            "module": "Book Lending",
+                "custom": 0,
+                    "fields": [
+                            {"label": "Book", "fieldname": "book", "fieldtype": "Link", "options": "Book", "reqd": 1},
+                                    {"label": "Borrower", "fieldname": "borrower", "fieldtype": "Link", "options": "Borrower", "reqd": 1},
+                                            {"label": "Lend Date", "fieldname": "lend_date", "fieldtype": "Date", "reqd": 1},
+                                                    {"label": "Return Date", "fieldname": "return_date", "fieldtype": "Date"}
+                                                        ],
+                                                            "permissions": [{"role": "System Manager", "read": 1, "write": 1, "create": 1}],
+                                                            }).insert()
+2025-07-03 15:07:35,605 INFO ipython === session end ===
+2025-07-03 15:39:22,526 INFO ipython === bench console session ===
+2025-07-03 15:39:22,530 INFO ipython frappe.get_all("Book", fields=["name", "title", "status"])
+2025-07-03 15:39:22,530 INFO ipython frappe.get_doc({
+    "doctype": "Book",
+        "title": "1984",
+            "author": "George Orwell",
+                "isbn": "978-0451524935"
+                }).insert()
+2025-07-03 15:39:22,530 INFO ipython frappe.get_all("Book", fields=["name", "title", "status"])
+2025-07-03 15:39:22,530 INFO ipython EXIT
+2025-07-03 15:39:22,530 INFO ipython === session end ===
+2025-07-04 09:31:57,463 INFO ipython === bench console session ===
+2025-07-04 09:31:57,464 INFO ipython frappe.reload_doc("book_lending", "doctype", "your_doctype_name")  # optional
+2025-07-04 09:31:57,464 INFO ipython frappe.db.get_all("DocType")[:5]  # should return list of doctypes
+2025-07-04 09:31:57,464 INFO ipython === session end ===

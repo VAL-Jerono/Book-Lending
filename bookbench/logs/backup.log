@@ -1,0 +1,12 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_fd1b503349a4da76 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _fd1b503349a4da76 | /usr/bin/gzip >> ./books.local/private/backups/20250704_143003-books_local-database.sql.gz
+
+Backup Summary for books.local at 2025-07-04 14:30:05.457539
+Config  : ./books.local/private/backups/20250704_143003-books_local-site_config_backup.json 94.0B
+Database: ./books.local/private/backups/20250704_143003-books_local-database.sql.gz         207.7KiB
+Backup for Site books.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_b6c03b37fc4b9cd6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _b6c03b37fc4b9cd6 | /usr/bin/gzip >> ./inventory.local/private/backups/20250704_143005-inventory_local-database.sql.gz
+
+Backup Summary for inventory.local at 2025-07-04 14:30:07.300625
+Config  : ./inventory.local/private/backups/20250704_143005-inventory_local-site_config_backup.json 94.0B
+Database: ./inventory.local/private/backups/20250704_143005-inventory_local-database.sql.gz         224.1KiB
+Backup for Site inventory.local has been successfully completed

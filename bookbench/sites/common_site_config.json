@@ -1,0 +1,11 @@
+{
+ "db_name": "_fd1b503349a4da76",
+ "db_password": "oWKFddqMOSEMXYQ1",
+ "db_type": "mariadb",
+ "default_site": "books.local",
+ "file_watcher_port": 6787,
+ "redis_cache": "redis://localhost:13000",
+ "redis_queue": "redis://localhost:11000",
+ "redis_socketio": "redis://localhost:12000",
+ "socketio_port": 9000
+}

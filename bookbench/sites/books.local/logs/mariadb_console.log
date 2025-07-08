@@ -1,0 +1,7 @@
+_HiStOrY_V2_
+SELECT\040name\040FROM\040tabUser\040WHERE\040name\040=\040'Guest';
+bench\040--site\040books.local\040reinstall
+q
+exit;
+q\040exit;
+\134q
