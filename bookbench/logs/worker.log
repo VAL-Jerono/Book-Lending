@@ -117,3 +117,9 @@ $ bench use books.local
 2025-07-08 11:43:46,339 Cleaning registries for queue: home-jerono-bookbench:short
 2025-07-08 11:43:46,354 Cleaning registries for queue: home-jerono-bookbench:default
 2025-07-08 11:43:46,360 Cleaning registries for queue: home-jerono-bookbench:long
+2025-07-08 12:10:46,534 Cleaning registries for queue: home-jerono-bookbench:short
+2025-07-08 12:10:46,577 Cleaning registries for queue: home-jerono-bookbench:default
+2025-07-08 12:10:46,581 Cleaning registries for queue: home-jerono-bookbench:long
+2025-07-08 12:37:46,746 Cleaning registries for queue: home-jerono-bookbench:short
+2025-07-08 12:37:46,750 Cleaning registries for queue: home-jerono-bookbench:default
+2025-07-08 12:37:46,753 Cleaning registries for queue: home-jerono-bookbench:long
